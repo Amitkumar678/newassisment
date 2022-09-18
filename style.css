@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+/* main border style */
+.main{
+   border:4px dashed rgb(22, 243, 14);
+   border-radius: 30px;
+   width: 1020px;
+   height: 1760px;
+   margin: 30px;
+   position: relative;
+   left: 160px;
+   
+
+}
+.container{
+    background: #19437D;
+    width: 900px;
+    height: 1595px;
+    margin: 60px;
+    border: 1px solid rgb(18, 197, 241);
+}
+.Companylogo{
+    padding: 15px;
+}
+
+/* INPUT TEXT STYLE  */
+.inputbox{
+    width: 200px;
+    height: 20px;
+    margin: 3px;
+}
+.selectbox{
+    height: 20px;
+    width: 208px;
+    position: relative;
+    left: 1px;
+    margin: 2px;
+}
+
+/* register style */
+.ragistarbtn{
+    width: 200px;
+    height: 25px;
+    background-color:#19437D;
+    color: white;
+    border: 1px solid #dff4fa;
+    padding: 5px 5px;
+    border-radius: 6px;
+}
+.imgFormContainer{
+    display: flex;
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+form{
+    margin: 5px;
+    position: relative;
+    top: -8px;
+}
+/*  second container style */
+.secondContainer{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #DEECFF;
+  color: #19437D;
+  height: 50px;
+  padding: 20px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+/* third component explain */
+
+.thirdComponent{
+    border: 1 px solid rgb(252, 246, 246);
+    border-radius: 15px;
+    font-family:'Varsity Team';
+    font-weight: 700;
+    font-style: normal;
+
+}
+/* unorderlist box one style */
+.unorderlist{
+    display: flex;
+    border: 1px solid rgb(245, 239, 239);
+    border-radius: 15px;
+    margin: 0px 40px;
+    padding: 5px;
+}
+/* vertical line */
+
+.verticalline{
+    border-left: 1px dashed rgb(245, 239, 239);
+}
+
+/* FORTH CONTAINER STYLE SECOND UNORDERLIST SYLE */
+.forthContainerunorder{
+display: flex;
+border: 1px solid rgb(245,239,239);
+border-radius: 15px;
+margin: 0px 30px;
+/* width: 700px; */
+
+}
+.vertivalline2{
+    border-left: 1px dashed rgb(245, 239, 239);
+}
+
+/* contect container */
+
+.contectContainer{
+    background-color:rgb(245, 239, 239);
+    border-radius: 15px;
+    height:130px;
+    color:#19437D;
+    margin: 20px 130px;
+    padding: 2px;
+    line-height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.anchor{
+    color: red;
+}
+.anchor2{
+    color: #19437D;
+}
+.contectcontainer2{
+    position: relative;
+    left: 40px;
+    right: 60px;
+}
+/* footar explain */
+.footar{
+    background-color: #81BDD9;
+    padding: 10px 80px;
+    font-size: 10px;
+}
+.footar2{
+    color: black;
+}
